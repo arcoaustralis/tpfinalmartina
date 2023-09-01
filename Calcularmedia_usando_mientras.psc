@@ -3,16 +3,16 @@ Algoritmo calularmediamientras
 	media<-0
 	x<-1
 	
-	mostrar "¿De cuántos números quiere calcular el promedio"
+	mostrar "Â¿De cuÃ¡ntos nÃºmeros quiere calcular la media?"
 	Leer n
 	
 	Mientras x<=n HACER
-		Mostrar "Introduzca su número"
+		Mostrar "Introduzca su nÃºmero"
 		leer number
 		suma<-suma+number
 		x<-x+1
 	FinMientras
 	
 	media<-suma/n
-	Escribir "EL promedio de sus números es ",media
+	Escribir "La media de sus nÃºmeros es ",media
 FinAlgoritmo
